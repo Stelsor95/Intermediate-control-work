@@ -1,0 +1,38 @@
+[
+    {
+        "label": "format_seconds",
+        "kind": 2,
+        "importPath": "Test.Task01",
+        "description": "Test.Task01",
+        "peekOfCode": "def format_seconds(seconds):\n    days = seconds // 86400\n    seconds -= days * 86400\n    hours = seconds // 3600\n    seconds -= hours * 3600\n    minutes = seconds // 60\n    seconds -= minutes * 60\n    formatted = f'{days} days {hours} hours {minutes} minutes {seconds} seconds '\n    return formatted\n#Функция:",
+        "detail": "Test.Task01",
+        "documentation": {}
+    },
+    {
+        "label": "format_seconds",
+        "kind": 2,
+        "importPath": "Test.Task01",
+        "description": "Test.Task01",
+        "peekOfCode": "def format_seconds(seconds):\n    days = seconds // 86400\n    seconds -= days * 86400\n    hours = seconds // 3600\n    seconds -= hours * 3600\n    minutes = seconds // 60\n    seconds -= minutes * 60\n    return f'{days} days {hours} hours {minutes} minutes {seconds} seconds '\nseconds = int(input(\"Введите кол-во секунд: \"))\nformatted_seconds = format_seconds(seconds)",
+        "detail": "Test.Task01",
+        "documentation": {}
+    },
+    {
+        "label": "seconds",
+        "kind": 5,
+        "importPath": "Test.Task01",
+        "description": "Test.Task01",
+        "peekOfCode": "seconds = int(input(\"Введите кол-во секунд: \"))\nformatted_seconds = format_seconds(seconds)\nprint(formatted_seconds)  # Output: '1 days 10 hours 17 minutes 36 seconds '",
+        "detail": "Test.Task01",
+        "documentation": {}
+    },
+    {
+        "label": "formatted_seconds",
+        "kind": 5,
+        "importPath": "Test.Task01",
+        "description": "Test.Task01",
+        "peekOfCode": "formatted_seconds = format_seconds(seconds)\nprint(formatted_seconds)  # Output: '1 days 10 hours 17 minutes 36 seconds '",
+        "detail": "Test.Task01",
+        "documentation": {}
+    }
+]
